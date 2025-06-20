@@ -1,0 +1,52 @@
+{
+  "title": "jung",
+  "days": [
+    {
+      "id": "1",
+      "today": 1
+    },
+    {
+      "id": "2",
+      "today": 2
+    },
+    {
+      "id": 3,
+      "today": "3"
+    },
+    {
+      "id": 4,
+      "today": "4"
+    },
+    {
+      "id": 4,
+      "today": "4"
+    },
+    {
+      "id": 4,
+      "today": "4"
+    }
+  ],
+  "word": [
+    {
+      "id": "1",
+      "eng": "react",
+      "kor": "리액트",
+      "day": 1,
+      "isDone": false
+    },
+    {
+      "id": "2",
+      "eng": "vue",
+      "kor": "뷰",
+      "day": 1,
+      "isDone": false
+    },
+    {
+      "id": "3",
+      "eng": "hunter",
+      "kor": "헌터",
+      "day": 2,
+      "isDone": false
+    }
+  ]
+}
