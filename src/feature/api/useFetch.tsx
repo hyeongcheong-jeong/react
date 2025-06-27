@@ -10,6 +10,6 @@ export default function useFetch(url: string) {
     .then(data => {
       setWords(data)
     })
-  }, [])
+  }, [url])
   return words
 }

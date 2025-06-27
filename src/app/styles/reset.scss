@@ -2,7 +2,28 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-.box {
-  background: #0000ff;
+
+#root {
+  min-height: 100vh;
+  padding: 30px 20px 120px;
+
+  .footer {
+    position: fixed;
+    margin-top: auto;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid #cdcdcd;
+    z-index: 100;
+    background: #fcfcfc
+  }
+}
+
+img {
+  max-width:100%;
 }
