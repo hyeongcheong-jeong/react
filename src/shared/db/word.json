@@ -144,19 +144,6 @@
       "age": 12,
       "isValid": false,
       "emails": "evan1@heropy.dev"
-    },
-    {
-      "id": "EkGwR",
-      "name": "Lewis",
-      "age": 63,
-      "isValid": true,
-      "emails": "lewis1@heropy.dev"
-    },
-    {
-      "id": "1864",
-      "age": 20,
-      "name": "정형철",
-      "emails": "happy@naver.com"
     }
   ]
 }

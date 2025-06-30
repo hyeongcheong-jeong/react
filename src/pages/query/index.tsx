@@ -3,7 +3,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
 import style from './query.module.scss'
 // import { Bottom, ComA, ComB, ComC } from "./ui"
 import { Bottom, ComA, ComB } from "./ui"
-import Form from "./ui/form"
 //queryClient 인스턴스 생성
 const queryClient = new QueryClient()
 export default function Query() {

@@ -13,7 +13,7 @@ export default function Form({changeShowFn}: {changeShowFn: () => void}) {
   const queryClient = useQueryClient()
 
   const { mutate, error, isPending, isError } = useMutation({
-    mutationFn: (users: User) => createUser('http://localhost:8888/users1', users),
+    mutationFn: (users: User) => createUser('http://localhost:8888/users', users),
     // mutationFn: async(newUser: User) => {
     //   const response = await fetch(url, {
     //     method: 'POST',
